@@ -1,0 +1,81 @@
+#vanban1 {
+  font-weight: bold;
+}
+#div1 {
+  background-color: aqua;
+  height: 200px;
+  width: 250px;
+  position: absolute;
+  margin-left: 650px;
+  z-index: 2;
+  border-top: 1px solid rgb(255, 166, 0);
+  border-radius: 20px 40px 60px 80px;
+}
+#div2 {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  margin-left: 750px;
+  z-index: 1;
+  border: 5px solid pink;
+  border-radius: 10px 20px 30px 40px;
+  opacity: 0.7;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding-left: 30px;
+}
+.profile {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: darksalmon;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+img {
+  height: 150px;
+  width: 150px;
+}
+.nen {
+  display: flex;
+  justify-content: space-around;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: darkgrey;
+}
+.sanpham {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+marquee {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px #f0f;
+}
+#login {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+form {
+  margin-top: 20px;
+}
+.nenanh {
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: darkslategray;
+  padding: 20px;
+}
+.nenngoai {
+  background-color: black;
+}
