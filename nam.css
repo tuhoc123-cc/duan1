@@ -1,51 +1,14 @@
-#div1 {
-  width: 200px;
-  height: 200px;
-  background-color: aqua;
-  z-index: 2;
-  position: absolute;
-  border-radius: 10px 20px 30px 40px;
-  margin-left: 700px;
-}
-#div2 {
-  width: 200px;
-  height: 200px;
-  background-color: red;
-  border-color: hotpink;
-  z-index: 1;
-  border-radius: 10px auto;
-  margin-left: 750px;
-  opacity: 0.7;
-}
-#profile {
-  max-width: 600px;
-  background-color: pink;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-marquee {
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 5px #f0f;
-}
-.nen {
-  display: flex;
-  justify-content: space-around;
-  max-width: 300px;
-  margin: 20px 20px 20px 20px;
+tattantatcss {
+  /* kiểu chữ */
+  font-style: italic;
+  /* font chữ */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* chuyển hoa thường */
+  text-transform: capitalize;
+  /* căn giữa */
   text-align: center;
-}
-.sanpham {
-  background-color: antiquewhite;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-img {
-  width: 150px;
+  /* visibility - ẩn hoặc hiện element */
+  /* ko nhìn thấy không gian giao diện ; vẫn chiếm không gian ; không tương tác phần tử  */
+  visibility: hidden; /* ẩn */
+  visibility: visible; /* hiện */
 }

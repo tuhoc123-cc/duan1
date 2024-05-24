@@ -1,3 +1,13 @@
+.kieuchu {
+  /* kiểu chữ */
+  font-style: italic;
+  /* font chữ */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* chuyển hoa thường */
+  text-transform: capitalize;
+  /* căn giữa */
+  text-align: center;
+}
 #vanban1 {
   font-weight: bold;
 }
@@ -18,14 +28,18 @@
   position: absolute;
   margin-left: 750px;
   z-index: 1;
+  /* hiển thị thứ mấy */
   border: 5px solid pink;
   border-radius: 10px 20px 30px 40px;
+  /* đường viền màu tròn */
   opacity: 0.7;
 }
 body {
   font-family: Arial, sans-serif;
   margin: 0px;
+  /* khoảng cách 2 mép */
   padding-left: 30px;
+  /* khoảng cách đến chữ */
 }
 .profile {
   max-width: 600px;
@@ -34,6 +48,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* tạo độ bóng  */
 }
 img {
   height: 150px;
@@ -52,6 +67,7 @@ img {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  /* canh lề chữ */
 }
 marquee {
   font-size: 30px;
@@ -78,4 +94,14 @@ form {
 }
 .nenngoai {
   background-color: black;
+}
+h5 {
+  background-color: blue;
+  /* opacity: 0.7; */
+  /* display: none; */
+  /* ẩn phần tử giao diện , xóa không gian nó đang chiếm  */
+  visibility: hidden;
+}
+h4 {
+  visibility: visible;
 }
