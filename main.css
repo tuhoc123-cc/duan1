@@ -105,3 +105,42 @@ h5 {
 h4 {
   visibility: visible;
 }
+.login {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.form {
+  margin-top: 20px;
+}
+.image-container {
+  overflow: hidden;
+}
+#dynamic-image {
+  width: 300px;
+  height: 200px;
+  transition: transform 0.3s ease;
+}
+#dynamic-image:hover {
+  transform: scale(1.2);
+}
+/*  p có class là demo */
+p.demo {
+  color: red;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.demo.demo2 {
+  color: red;
+}
+/* chọn tất cả thẻ p nằm trong thẻ div */
+div p {
+  color: blue;
+}
+/* div > p chọn tất cả thẻ p là con trực tiếp thẻ div */
+.loichuc {
+  color: red;
+}
