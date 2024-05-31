@@ -117,6 +117,7 @@ h4 {
 }
 .image-container {
   overflow: hidden;
+  /* ẩn phần tử */
 }
 #dynamic-image {
   width: 300px;
@@ -143,4 +144,28 @@ div p {
 /* div > p chọn tất cả thẻ p là con trực tiếp thẻ div */
 .loichuc {
   color: red;
+}
+/* thẻ h2 liền sát sau thẻ h1 */
+h1 + h2 {
+  color: red;
+  font-size: 14px;
+}
+/* thẻ h3 liền sát thẻ .demo2 */
+.demo + h3 {
+  color: blue;
+}
+/* chọn tất cả thẻ a sau div không cần biết nó có đóng thẻ hay không */
+div ~ a {
+  color: red;
+  font-size: 14px;
+}
+/* cú pháp này gọi là [attribute=value] */
+/* trong thẻ p có thẻ href thì mới tác dụng */
+/* hoặc [href] thì tất cả href trong tất cả thẻ đều thay đổi theo nó  */
+p[href] {
+  color: red;
+  font-size: 14px;
+}
+a[target="blank"] {
+  color: pink;
 }
